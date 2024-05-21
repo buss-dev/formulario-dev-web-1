@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.radio-group {
+  display: flex;
+}
+
+.radio-group div {
+  display: flex;
+  align-items: center;
+}
+
+.radio-group div label {
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 10px;
+}
+
+.campo {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.campo-flex {
+  padding: 10px;
+}
+
+.organizacoes {
+  margin-top: 10px;
+}
+
+.organizacoes label {
+  padding-right: 15px;
+}
+
+label,
+span {
+  font-weight: bolder;
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+.submit {
+  margin: 10px;
+}
+
+.submit button {
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+.submit button:hover {
+  cursor: pointer;
+  background-color: green;
+  transition: 0.2s ease-in;
+}
+
+.card {
+  padding: 5px;
+  margin: 10px 0px;
+  background-color: aliceblue;
+}
+
+.subcard {
+  background-color: beige;
+  padding-top: 5px;
+}
+
+.card h3,
+.subcard h4 {
+  text-decoration: underline;
+}
+
+.textarea-group {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.textarea-group textarea {
+  margin-top: 10px;
+  width: 100%;
+}
+
+input:focus {
+  border-color: black;
+}
+
+input {
+  height: 30px;
+}
